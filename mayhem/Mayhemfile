@@ -5,7 +5,7 @@ project: theta-protocol-ledger
 target: theta-protocol-ledger-add-fuzz
 
 # Base image to run the binary in.
-image: ghcr.io/lotdeef/theta-protocol-ledger:latest
+# image: ghcr.io/lotdeef/theta-protocol-ledger:latest
 
 # List of commands used to test the target
 cmds:
