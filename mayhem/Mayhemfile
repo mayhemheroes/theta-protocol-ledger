@@ -1,0 +1,4 @@
+project: theta-protocol-ledger
+target: theta-protocol-ledger-add-fuzz
+cmds:
+  - cmd: ./add-fuzz.libfuzzer
