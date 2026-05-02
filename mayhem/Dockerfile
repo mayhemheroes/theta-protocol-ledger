@@ -1,4 +1,4 @@
-FROM golang:1.17.13 as fuzzbuilder
+FROM golang:1.23.13 as fuzzbuilder
 ARG project='theta-protocol-ledger'
 ARG fuzzTargetPath='crypto/bn256'
 
